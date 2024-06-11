@@ -1,0 +1,31 @@
+<html>
+<head>
+</head>
+
+<body>
+<h1>Enter Information</h1>
+<form method="POST" Action ="participant.php" enctype="multipart/form-data">
+Enter ID<input Type="TEXT" name="ID"><br>
+Enter SSN<input Type="TEXT" name="SSN"><br>
+Enter First Name<input Type="TEXT" name="FName"><br>
+Enter Last Name<input Type="TEXT" name="LName"><br>
+Enter Date of Barth<input Type="TEXT" name="BOD"><br>
+Enter Project Name<input Type="TEXT" name="Project"><br>
+Enter Sex<input Type="TEXT" name="Sex"><br><br>
+<hr>
+<textarea name="Comments" rows="4" cols="36">Enter your comments ^-^ </textarea><br><br>
+select Operation<select name="op">
+	<option>Delete</option>
+	<option>Update_Project</option>
+	<option>Display</option>
+	</select><br><br>
+	<label for="file">Select File:</label>
+    <input type="file" name="file" id="file" ><br><br>
+
+	<input type="Submit" value="Register">
+	<input type= "reset" value="Clear">
+	</form>
+	<p><a href="index.html">Logout</a></p>
+</body>
+
+</html>
